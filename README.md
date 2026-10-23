@@ -30,13 +30,15 @@ The system uses an Arduino Uno to process sensor readings and activate alerts wh
 * Connecting wires
 * Stick structure and wearable cap assembly
 
+* 
 ## ⚙️ Working Principle
 
-1. The ultrasonic sensor measures the distance to nearby obstacles.
-2. The IR sensor provides an additional obstacle-detection input.
-3. The Arduino processes the sensor readings.
-4. When an obstacle is detected within the programmed range, the buzzer and red LED provide an alert.
-5. The green LED can indicate system power, depending on the implemented circuit.
+1. The ultrasonic sensor measures the distance to obstacles in front of the user.
+2. The IR sensor provides additional obstacle-detection input.
+3. The Arduino Uno processes the readings from both sensors.
+4. When an obstacle is detected within the programmed range, the buzzer activates to alert the user.
+5. A red LED serves as a visual working-status indicator, helping indicate whether the smart stick is operational.
+
 
 ## 🔌 Circuit Diagram
 
