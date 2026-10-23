@@ -1,23 +1,25 @@
-# VISION BEYOND SIGHT
+# 👁️ Vision Beyond Sight
 
 ## Smart Stick and Smart Cap for Visually Impaired People
 
-### About the Project
+An Arduino-based assistive technology project designed to help visually impaired people detect obstacles using ultrasonic and infrared sensors, audio alerts, and LED indicators.
 
-Vision Beyond Sight is a second-year engineering project designed to assist visually impaired people in detecting obstacles while moving.
+---
 
-The system uses an Arduino Uno, ultrasonic sensor, IR sensor, buzzer, and LED indicators to provide alerts when obstacles are detected.
+## 📌 Project Overview
 
-The project combines a smart stick with a wearable smart cap to improve awareness of obstacles at different heights.
+Vision Beyond Sight is a second-year engineering project that combines a smart stick and a smart cap to help users identify obstacles at different heights.
 
-### Objectives
+The system uses an Arduino Uno to process sensor readings and activate alerts when obstacles are detected.
 
-* Detect obstacles using electronic sensors.
+## 🎯 Objectives
+
+* Detect obstacles in front of the user.
 * Provide audio alerts through a buzzer.
-* Use LED indicators for system status and obstacle detection.
-* Develop an affordable assistive technology prototype.
+* Use LED indicators to communicate system status and obstacle detection.
+* Explore an affordable assistive technology solution.
 
-### Hardware Components
+## 🧰 Hardware Components
 
 * Arduino Uno
 * HC-SR04 ultrasonic sensor
@@ -26,35 +28,49 @@ The project combines a smart stick with a wearable smart cap to improve awarenes
 * Red LED
 * Rechargeable battery
 * Connecting wires
-* Smart stick structure
-* Smart cap assembly
+* Stick structure and wearable cap assembly
 
-### Working Principle
+## ⚙️ Working Principle
 
-1. The ultrasonic sensor measures the distance to an obstacle.
-2. The IR sensor provides additional obstacle-detection input.
+1. The ultrasonic sensor measures the distance to nearby obstacles.
+2. The IR sensor provides an additional obstacle-detection input.
 3. The Arduino processes the sensor readings.
-4. When an obstacle is detected within the configured range, the buzzer and red LED activate.
-5. The green LED indicates that the system is powered on.
+4. When an obstacle is detected within the programmed range, the buzzer and red LED provide an alert.
+5. The green LED can indicate system power, depending on the implemented circuit.
 
-### Technologies Used
+## 🔌 Circuit Diagram
 
-* Arduino Uno
-* C++ and Arduino IDE
-* Embedded Systems
-* Sensor Interfacing
-* Basic Electronics
+![Circuit Diagram](circuit/circuit-diagram.png)
 
-### Project Diagrams and Photographs
+## 🧩 System Block Diagram
 
-Circuit diagrams, the system block diagram, and photographs of the completed prototype will be added to this repository.
+![System Block Diagram](circuit/block-diagram.png)
 
-### Future Improvements
+## 📸 Project Prototype
+
+### Working Prototype
+
+![Working Prototype](images/Working-prototype.jpeg)
+
+### Non-Working Prototype
+
+![Non-Working Prototype](images/Non-working-prototype.jpeg)
+
+## 💻 Arduino Source Code
+
+The Arduino programs are available in the `code` folder:
+
+* [Smart Stick Code](code/smart_stick.ino)
+* [Smart Cap Code](code/smart_cap.ino)
+
+Open either file to view the source code.
+
+## 🚀 Future Improvements
 
 * Voice-based obstacle alerts.
 * GPS-based location assistance.
 * Improved battery monitoring.
-* Enhanced obstacle detection.
-
+* More reliable obstacle detection.
+* Improved wearable design and comfort.
 
 
