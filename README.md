@@ -30,7 +30,7 @@ The system uses an Arduino Uno to process sensor readings and activate alerts wh
 * Connecting wires
 * Stick structure and wearable cap assembly
 
-* 
+
 ## ⚙️ Working Principle
 
 1. The ultrasonic sensor measures the distance to obstacles in front of the user.
